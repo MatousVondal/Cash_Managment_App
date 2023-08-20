@@ -53,5 +53,5 @@ Another planned functionality is the addition of dynamic currency conversion. Cu
 ## Contact
 
 - [Matous Vondal](mailto:matousvondal@icloud.com)
-- Visit my LinkIn: [Link](https://www.linkedin.com/in/matouš-vondál/)
+- Visit my LinkedIn: [Link](https://www.linkedin.com/in/matouš-vondál/)
 
