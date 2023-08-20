@@ -43,5 +43,5 @@ Contributions are welcome! If you find any issues or want to add new features, f
 ## Contact
 
 - [Matous Vondal](mailto:matousvondal@icloud.com)
-- Visit our LinkIn: [https://www.example.com]([https://www.linkedin.com/in/matouš-vondál/])
+- Visit our LinkIn: [https://www.example.com](https://www.linkedin.com/in/matouš-vondál/)
 
