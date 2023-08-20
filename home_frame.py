@@ -65,7 +65,7 @@ class HomeFrame(customtkinter.CTkFrame):
                 }
         }
         
-        file_name = os.path.join("/Users/matous/Desktop/MoneySaver/files", file_name + '.json')
+        file_name = os.path.join("/path_to_files", file_name + '.json')
         with open(file_name, 'w') as f:
             json.dump(data, f, indent=4)
 
@@ -82,7 +82,7 @@ class HomeFrame(customtkinter.CTkFrame):
     # As well function is called when is clicked on adding button in navigation frame
     # By this function data are stored in self.data variable and can be used in other frames
         name = self.choose_file_opener.get()
-        with open('/Users/matous/Desktop/MoneySaver/files/'+ name + ".json", 'r') as f:
+        with open('/path_to_files'+ name + ".json", 'r') as f:
             data = json.load(f)
             status = True
         return data, status
@@ -98,8 +98,8 @@ class HomeFrame(customtkinter.CTkFrame):
     # And return them in list
     # This list is used for option menu    
         file_list = ["None"]
-        for filename in os.listdir('/Users/matous/Desktop/MoneySaver/files'):
-            if os.path.isfile(os.path.join('/Users/matous/Desktop/MoneySaver/files', filename)):
+        for filename in os.listdir('/path_to_files'):
+            if os.path.isfile(os.path.join('/path_to_files', filename)):
                 file_list.append(self.base_file_name(filename))
         return file_list
 
