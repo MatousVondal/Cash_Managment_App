@@ -43,8 +43,11 @@ Contributions are welcome! If you find any issues or want to add new features, f
 ## Future work
 
 Datetime Filtering and Date Visualization:
+
 I aim to introduce a datetime filtering feature, allowing users to selectively visualize data based on specific date ranges. This enhancement will provide users with a more focused view of their financial data, enabling them to analyze trends and patterns more effectively.
+
 Dynamic Currency Conversion:
+
 Another planned functionality is the addition of dynamic currency conversion. Currently, the application supports Czech Crowns as the default currency. However, I plan to implement a feature that will enable users to switch between different currencies, enhancing its global usability and making it adaptable to various financial contexts.
 
 ## Contact
