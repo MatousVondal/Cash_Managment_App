@@ -15,19 +15,19 @@ Welcome to My Cash Management App! This application is designed to help you mana
 ## Screenshots
 
 ### HomeFrame
-![Home Frame](screenshots/HomeFrame.png)
+![Home Frame](images/HomeFrame.png)
 
 ### Adding
-![Adding frame](screenshots/Adding2.png)
+![Adding frame](images/Adding2.png)
 
 ### Expenditure Over Time
-![Expenditure Over Time](screenshots/OverTime.png)
+![Expenditure Over Time](images/OverTime.png)
 
 ### Total Expenditure by Category
-![Total Expenditure by Category](screenshots/Histo.png)
+![Total Expenditure by Category](images/Histo.png)
 
 ### Money Balance Through Time
-![Money Balance Through Time](screenshots/MoneBalance.png)
+![Money Balance Through Time](images/MoneBalance.png)
 
 ## Getting Started
 
