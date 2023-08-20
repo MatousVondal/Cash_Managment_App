@@ -14,7 +14,10 @@ Welcome to My Cash Management App! This application is designed to help you mana
 
 ## Screenshots
 
-### Main Dashboard
+### HomeFrame
+![Main Dashboard](screenshots/dashboard.png)
+
+### Adding
 ![Main Dashboard](screenshots/dashboard.png)
 
 ### Expenditure Over Time
