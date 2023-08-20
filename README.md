@@ -62,6 +62,6 @@ Another planned functionality is the addition of dynamic currency conversion. Cu
 
 ## Contact
 
-- [Matous Vondal](mailto:matousvondal@icloud.com)
+- [matousvondal@icloud.com](mailto:matousvondal@icloud.com)
 - Visit my LinkedIn: [Link](https://www.linkedin.com/in/matouš-vondál/)
 
