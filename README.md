@@ -1,6 +1,16 @@
 # Cash_Managment_App
 My Cash Management App is a user-friendly and feature-rich application designed to help you take control of your finances. Track your income and expenses, visualize your financial data with interactive charts, and monitor your money balance over time.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [Future Work](#future-work)
+- [Contact](#contact)
+
 ## Introduction
 
 Welcome to My Cash Management App! This application is designed to help you manage your finances effectively. You can use this app to track your income, expenses, and get insights into your spending patterns.
