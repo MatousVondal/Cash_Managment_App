@@ -15,7 +15,7 @@ class Chart():
             df_exp = df[df['income_expenditure'] == "0"]
             df_pre = self.pre_processing(df_exp)
         elif expenditure == None:
-            with open('/Users/matous/Desktop/MoneySaver/files/blank.json', 'r') as f:
+            with open('/path_to_files/blank.json', 'r') as f:
                 file = json.load(f)
                 df_pre = pd.DataFrame(file["items"])
         else:
