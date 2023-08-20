@@ -167,7 +167,7 @@ class SecondFrame(customtkinter.CTkFrame):
                 }
         }
 
-        file_name = os.path.join("/Users/matous/Desktop/MoneySaver/files", file_name + '.json')
+        file_name = os.path.join("/path_to_files", file_name + '.json')
         with open(file_name, 'w') as f:
             json.dump(data, f, indent=4)
 
