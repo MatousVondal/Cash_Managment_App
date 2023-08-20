@@ -29,6 +29,19 @@ Welcome to My Cash Management App! This application is designed to help you mana
 ### Money Balance Through Time
 ![Money Balance Through Time](images/MoneBalance.png)
 
-## Getting Started
+## Usage
 
-1. Clone the repository:
+1. Launch the app and sign in or create an account.
+2. Enter your income and expenses under the 'Add Transaction' tab.
+3. View your financial data in various charts under the respective tabs.
+4. Monitor your monthly money balance and spending patterns.
+
+## Contributions
+
+Contributions are welcome! If you find any issues or want to add new features, feel free to submit a pull request.
+
+## Contact
+
+- [Matous Vondal](mailto:matousvondal@icloud.com)
+- Visit our LinkIn: [https://www.example.com]([https://www.linkedin.com/in/matouš-vondál/])
+
