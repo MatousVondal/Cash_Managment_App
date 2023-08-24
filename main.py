@@ -4,11 +4,14 @@ import home_frame
 import navigation_frame
 import second_frame
 
+
 class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
 
         # Set the window properties
+        self.status = None
+        self.data = None
         self.title("MoneySaver")
         self.geometry(f"{1200}x{680}")
 
@@ -31,12 +34,17 @@ class App(customtkinter.CTk):
         # Set the default frame
         self.select_frame_by_name("home")
 
-
     def select_frame_by_name(self, name):
-    # function controls which frame is shown acording 
-    # click on buttons home or adding or vizualisation
-    
-        # set button color for selected button
+        """
+        Control the displayed frame based on button clicks for home, adding, or visualization.
+
+        Args:
+            name (str): The name of the frame to be displayed.
+
+        Returns:
+            None
+        """
+        # Set button color for the selected button
         self.navigation.set_button_color(name)
 
         # Hide all frames
@@ -44,31 +52,32 @@ class App(customtkinter.CTk):
         self.second_frame.grid_forget()
         self.third_frame.grid_forget()
 
-        # Show the selected frame
+        # Display the selected frame
         if name == "home":
-        # In this block is shown home frame
+            # Display the home frame
             self.home.grid(row=0, column=1, sticky="nsew")
         elif name == "frame_2":
-        # When is frame changed to adding frame (second frame) this block is executed
-        # As well has to be upload data from choosed file from home frame 
-        # Data are saved in self.data 
-        # Status is used for info if data are already uploaded
-        # Method reload is used for reload data in treeview which are shown in second frame
+            # Display the adding frame (second frame)
+            # Also, data is uploaded from the chosen file in the home frame
+            # The uploaded data is saved in self.data
+            # The status variable indicates if data has already been uploaded
+            # The reload method is used to refresh the data in the treeview shown in the second frame
             self.second_frame.grid(row=0, column=1, sticky="nsew")
             self.data, self.status = self.home.select_file()
             self.second_frame.data = self.data
             self.second_frame.status = self.status
             self.second_frame.reload()
         elif name == "frame_3":
-        # When is frame changed to vizualisation frame (third frame) this block is executed
-        # As well has to be upload data from choosed file from home frame
-        # Data are saved in self.data
-        # Method create_chart is used for create chart in third frame which visualise uploaded data from home frame data
+            # Display the visualization frame (third frame)
+            # Data is also uploaded from the chosen file in the home frame
+            # The uploaded data is saved in self.data
+            # The create_chart method is used to generate a chart in the third frame,
+            # visualizing the data uploaded from the home frame
             self.third_frame.grid(row=0, column=1, sticky="nsew")
-            self.data, _ = self.home.select_file()   
+            self.data, _ = self.home.select_file()
             self.third_frame.data = self.data
             self.third_frame.create_chart("ALL")
-            
+
 
 if __name__ == "__main__":
     app = App()
